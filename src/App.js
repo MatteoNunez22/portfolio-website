@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './media/portrait.jpg';
 import './App.css';
 
 function App() {
@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Portfolio website in progress ...
+          Matteo Nunez
+        </p>
+        <p>
+          Software Engineering student
         </p>
         <a
           className="App-link"
