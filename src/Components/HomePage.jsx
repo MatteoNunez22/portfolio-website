@@ -12,16 +12,30 @@ class HomePage extends Component {
                     <p className="Name">
                         Matteo Nunez
                     </p>
-                    <p>
+                    <p className="Title">
                         Software Engineering student
                     </p>
+                    <p className="Info-text">
+                        Email:  matteo.nunez22@gmail <br></br>
+                        Address:  Montreal, QC <br></br>
+                        School:  McGill University <br></br>
+                        Year:  U4 (Graduating Dec 2022) <br></br>
+                    </p>
                     <a
-                        className="App-link"
+                        className="Info-link"
                         href="https://www.linkedin.com/in/matteo-nunez-a27918139/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        LinkedIn profile
+                        LinkedIn -
+                    </a>
+                    <a
+                        className="Info-link"
+                        href="https://github.com/MatteoNunez22/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        - GitHub
                     </a>
                 </div>
                 <div className="Home-right">

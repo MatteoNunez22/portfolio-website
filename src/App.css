@@ -50,6 +50,48 @@
     color: #000000;
 }
 
+.Title {
+    position: relative;
+    top: 170px;
+    left: 240px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.Info-text {
+    position: relative;
+    top: 240px;
+    left: 240px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.Info-link {
+    position: relative;
+    top: 240px;
+    left: 240px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #61dafb;
+}
+
 .Home-right {
     background-color: #6D7993;
     width: 50%;
