@@ -32,11 +32,25 @@
     display: flex;
 }
 
-.Left {
+.Home-left {
     width: 50%;
 }
 
-.Right {
+.Name {
+    position: relative;
+    top: 260px;
+    left: 240px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 86px;
+    line-height: 115px;
+
+    color: #000000;
+}
+
+.Home-right {
     background-color: #6D7993;
     width: 50%;
 }

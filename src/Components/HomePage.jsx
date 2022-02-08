@@ -8,8 +8,8 @@ class HomePage extends Component {
             <div className="Home">
                 <header className="App-header">
                 </header>
-                <div className="Left">
-                    <p>
+                <div className="Home-left">
+                    <p className="Name">
                         Matteo Nunez
                     </p>
                     <p>
@@ -24,7 +24,7 @@ class HomePage extends Component {
                         LinkedIn profile
                     </a>
                 </div>
-                <div className="Right">
+                <div className="Home-right">
                     <img src={pfp} className="Portrait" alt="Portrait pic" />
                 </div>
             </div>
