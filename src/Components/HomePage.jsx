@@ -5,9 +5,10 @@ import '../App.css';
 class HomePage extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="Home">
                 <header className="App-header">
-                    <img src={pfp} className="Portrait" alt="Portrait pic" />
+                </header>
+                <div className="Left">
                     <p>
                         Matteo Nunez
                     </p>
@@ -22,7 +23,10 @@ class HomePage extends Component {
                     >
                         LinkedIn profile
                     </a>
-                </header>
+                </div>
+                <div className="Right">
+                    <img src={pfp} className="Portrait" alt="Portrait pic" />
+                </div>
             </div>
         )
     }

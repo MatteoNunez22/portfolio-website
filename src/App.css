@@ -28,9 +28,25 @@
   color: #61dafb;
 }
 
+.Home {
+    display: flex;
+}
+
+.Left {
+    width: 50%;
+}
+
+.Right {
+    background-color: #6D7993;
+    width: 50%;
+}
+
 .Portrait {
-    height: 40vmin;
-    pointer-events: none;
+    position: relative;
+    width: 420px;
+    height: 560px;
+    top: 260px;
+    left: 270px;
   }
 
 /* @keyframes App-logo-spin {
