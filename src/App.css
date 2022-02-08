@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.Portrait {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
