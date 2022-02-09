@@ -99,8 +99,11 @@
 
 .Portrait {
     position: relative;
-    width: 420px;
-    height: 560px;
+    display: block;
+    max-width: 420px;
+    max-height: 560px;
+    width: auto;
+    height: auto;
     top: 260px;
     left: 270px;
   }
